@@ -157,9 +157,12 @@ void LushDelayAudioProcessor::processBlock (AudioBuffer<float>& buffer, MidiBuff
     
     // Send the playhead to the audio engine.
     // This allows the engine to check if bpm or timeSigDenominator has changed.
-    getPlayHead()->getCurrentPosition(currentPositionInfo);
-    lushDelayEngine.analyzePosition(currentPositionInfo);
-    
+    auto playHead = getPlayHead();
+    if (playHead)
+    {
+        playHead->getCurrentPosition(currentPositionInfo);
+        lushDelayEngine.analyzePosition(currentPositionInfo);
+    }
     //Lush only supports stereo out
     jassert(totalNumOutputChannels == 2);
     //Lush supports mono or stereo input
