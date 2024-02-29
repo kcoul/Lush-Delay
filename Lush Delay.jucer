@@ -58,23 +58,23 @@
         <CONFIGURATION isDebug="0" name="Release"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
-        <MODULEPATH id="juce_audio_basics" path="~/repos/zCodingProjects/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_devices" path="~/repos/zCodingProjects/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_formats" path="~/repos/zCodingProjects/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_plugin_client" path="~/repos/zCodingProjects/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_processors" path="~/repos/zCodingProjects/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_utils" path="~/repos/zCodingProjects/JUCE/modules"/>
-        <MODULEPATH id="juce_core" path="~/repos/zCodingProjects/JUCE/modules"/>
-        <MODULEPATH id="juce_cryptography" path="~/repos/zCodingProjects/JUCE/modules"/>
-        <MODULEPATH id="juce_data_structures" path="~/repos/zCodingProjects/JUCE/modules"/>
-        <MODULEPATH id="juce_events" path="~/repos/zCodingProjects/JUCE/modules"/>
-        <MODULEPATH id="juce_graphics" path="~/repos/zCodingProjects/JUCE/modules"/>
-        <MODULEPATH id="juce_gui_basics" path="~/repos/zCodingProjects/JUCE/modules"/>
-        <MODULEPATH id="juce_gui_extra" path="~/repos/zCodingProjects/JUCE/modules"/>
-        <MODULEPATH id="juce_opengl" path="~/repos/zCodingProjects/JUCE/modules"/>
-        <MODULEPATH id="stm_dsp" path="../stm-juce-modules"/>
-        <MODULEPATH id="stm_gui" path="../stm-juce-modules"/>
-        <MODULEPATH id="juce_dsp" path="~/repos/zCodingProjects/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="/Volumes/Extended/repos/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="/Volumes/Extended/repos/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="/Volumes/Extended/repos/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="/Volumes/Extended/repos/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="/Volumes/Extended/repos/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="/Volumes/Extended/repos/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="/Volumes/Extended/repos/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="/Volumes/Extended/repos/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="/Volumes/Extended/repos/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="/Volumes/Extended/repos/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="/Volumes/Extended/repos/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="/Volumes/Extended/repos/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="/Volumes/Extended/repos/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="/Volumes/Extended/repos/JUCE/modules"/>
+        <MODULEPATH id="stm_dsp" path="/Volumes/Extended/repos/stm-juce-modules"/>
+        <MODULEPATH id="stm_gui" path="/Volumes/Extended/repos/stm-juce-modules"/>
+        <MODULEPATH id="juce_dsp" path="/Volumes/Extended/repos/JUCE/modules"/>
       </MODULEPATHS>
     </XCODE_MAC>
     <VS2019 targetFolder="Builds/VisualStudio2019">
@@ -106,7 +106,7 @@
   <MODULES>
     <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
-    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
             useGlobalPath="1"/>
     <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
